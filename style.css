@@ -1,0 +1,84 @@
+
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.site-name {
+  font-size: 2 rem;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  padding: 1rem 1rem;
+  justify-content: center;
+  
+}
+
+
+
+
+header ul li a{
+  padding: .5rem 1rem;
+  width: 12ch;
+  list-style: none;
+}
+nav li a{
+  text-decoration: none;
+  color:black;
+  font-variant: small-caps;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+  border: 1px;
+  border-color: black;
+  
+}
+
+
+a {
+  outline: black;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  background-color: white;
+  border: 1px;
+  border-color: black;
+}
+
+nav li a:hover {
+  color: rebeccapurple;
+
+}
+
+.photos {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  max-height: 400px;
+}
+
+footer { 
+  background-color: black;
+  color: white;
+  padding: .1px;
+  text-align: center;
+  
+}
